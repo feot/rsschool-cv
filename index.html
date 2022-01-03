@@ -1,13 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML, CSS & Git Basics</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/favicon.ico">
+  <title>Stanislav Baretsky</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+  <div class="container">
+    <header>
+      <div class="header-content">
+        <nav class="head-nav">
+          <ul class="head-nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#code">Code example</a></li>
+            <li><a href="#project">Learn Project</a></li>
+            <li><a href="#languages">Languages</a></li>
+          </ul>
+        </nav>
+        <div class="userpic d-md-none">
+          <img src="assets/img/avatar.jpg" alt="avatar" width="400" height="500">
+        </div>
+        <h1 class="headline">Stanislav Baretsky</h1>
+      </div>
+
+      <div class="userpic d-none d-md-block">
+        <img src="assets/img/avatar.jpg" alt="avatar" width="400" height="500">
+      </div>
+    </header>
+    <main>
+      <section id="about">
+        <h2>About</h2>
+
+        <p>
+          Worked as a gravedigger and security guard in the 1990s, later unsuccessfully running a cafe and market. Wrote
+          poetry as a young man. In 2002 i made songs based on this work. In the period from 2003 to 2004 recorded two
+          solo albums, Цензура ("Censorship") and Цензура-2 ("Censorship-2"). Neither of these albums brought me
+          stardom.
+        </p>
+        <p>
+          In 2004 worked with the group named EU. They released an album in 2005, Электронщина (Elektronschina)
+          featuring a stencil of my face on the cover. Performed at concerts with EU in Moscow and St Petersburg. Then
+          worked with the group Leningrad, writing lyrics for a song.
+        </p>
+        <p>
+          Best known for my aggressive and anti-west stances. I am frequently picking fights on television shows and
+          radio interviews, sometimes being invited specifically to cause trouble. Vocally antiimport and anti anything
+          i deems capitalistic. In 2015, i drove my BMW into a field and lit it on fire to promote Russian industry. I
+          am announcing that all imported goods are evil and they should be destroyed. Also known for biting into beer
+          cans and twisting them apart, spraying those around.
+        </p>
+      </section>
+
+      <section id="contacts">
+        <h2>Contacts</h2>
+
+        <ul>
+          <li>E-mail: <a href="mailto:workandso@gmail.com">workandso@gmail.com</a></li>
+          <li>GitHub: <a href="https://github.com/feot" target="_blank" rel="noopener">feot</a></li>
+        </ul>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+
+        <ul>
+          <li>HTML/CSS/JS</li>
+          <li>Web-Components</li>
+          <li>SQL</li>
+          <li>Erlang</li>
+        </ul>
+      </section>
+
+      <section id="code">
+        <h2>Code Example</h2>
+
+        <code>
+          +++++++++++++++++++++++++++++++++++++++++++++
+          +++++++++++++++++++++++++++.+++++++++++++++++
+          ++++++++++++.+++++++..+++.-------------------
+          ---------------------------------------------
+          ---------------.+++++++++++++++++++++++++++++
+          ++++++++++++++++++++++++++.++++++++++++++++++
+          ++++++.+++.------.--------.------------------
+          ---------------------------------------------
+          ----.-----------------------.
+        </code>
+      </section>
+
+      <section id="project">
+        <h2>Learning Project</h2>
+
+        <p><a href="https://github.com/feot/dtf-sidebar" target="_blank" rel="noopener">Chrome extension</a> made just for lulz.</p>
+      </section>
+
+      <section id="languages">
+        <h2>Languages</h2>
+
+        <ul>
+          <li><b>Russian</b> - native</li>
+          <li><b>English</b> - B2</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <a class="footer-gh-link" href="https://github.com/feot" target="_blank" rel="noopener">
+        <figure class="gh-logo"></figure>
+        My GitHub
+      </a>
+
+      <div class="footer-year">2022</div>
+
+      <a class="rss-link" href="https://rs.school/js-stage0/" target="_blank" rel="noopener">
+        <figure class="rss-logo"></figure>
+      </a>
+    </footer>
+  </div>
 </body>
 </html>
