@@ -87,7 +87,7 @@ header {
   opacity: 1;
 }
 
-h1.headline {
+.headline {
   margin-bottom: 40px;
   text-align: center;
   font-size: 48px;
@@ -167,10 +167,11 @@ footer {
     justify-content: flex-end;
   }
 
-  h1.headline {
+  .headline {
     padding-left: 40px;
     margin-top: auto;
     margin-bottom: auto;
+    text-align: left;
   }
 
   .userpic {
